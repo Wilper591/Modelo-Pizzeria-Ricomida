@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap");
+/* Colores
+#373a3c
+#dddddd
+#000 o var(--black)
+#fff o var(--white)
+#dc3545 o var(--danger) 
+*/
+
+* {
+  border: 0;
+  font-family: "Cabin", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #373a3c;
+}
+
+#botonesPizza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#carousel {
+  padding-bottom: 4rem;
+}
+
+#contenedorImagenPrincipal {
+  width: 35rem;
+  position: relative;
+}
+
+#ing-prep {
+  margin: 0rem 5rem 0rem 5rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+#ing-prep ul {
+  padding: 0;
+}
+
+#ing-prep ul li,
+p {
+  list-style: none;
+  text-align: left;
+}
+
+#newsletter {
+  background-color: #dc3545;
+  padding: 3rem;
+}
+
+#pizzaChicago {
+  width: 16.5rem;
+  padding: 3rem 0 2rem 0;
+  border-top: 2px solid #000;
+  text-align: center;
+}
+
+#pizzaTitulo,
+#parrafoPizza {
+  text-align: center;
+}
+
+#ricomida,
+#ricomida2,
+footer h3 {
+  font-family: "Lobster", sans-serif;
+}
+
+#seccionPrincipal {
+  margin: 0 5rem 0 5rem;
+}
+
+#titulo-recetas {
+  font-size: 2rem;
+}
+
+.btn {
+  border: 2px solid #dddddd;
+}
+
+.blog .carousel-indicators ul li {
+  background-color: #373a3c31;
+  border: 1px solid #000;
+  border-radius: 50%;
+  bottom: -5rem;
+  display: inline-block;
+  height: 1.2rem;
+  left: -1rem;
+  list-style: none;
+  position: relative;
+  width: 1.2rem;
+}
+
+.blog .carousel-indicators ul li:hover {
+  background-color: #373a3c;
+  border: 1px solid #000;
+  border-radius: 50%;
+  height: 1.4rem;
+  width: 1.4rem;
+}
+
+.deseleccionado {
+  background-color: #fff !important;
+}
+
+.divisor {
+  border-bottom: 1px solid #000;
+}
+.margenes-main {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #373a3c;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Lobster", sans-serif;
+}
+.navbar-toggler {
+  width: 4rem;
+  justify-content: space-evenly;
+}
+.newsletter {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.seleccionado {
+  background-color: #000 !important;
+}
+
+@media (max-width: 768px) {
+  #botonesPizza {
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  #pizzaTitulo {
+    padding-top: 4rem;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+  }
+  #parrafoPizza {
+    text-align: center;
+  }
+  #seccionPrincipal {
+    justify-content: center;
+  }
+  #contenedorImagenPrincipal {
+    text-align: center;
+  }
+  #tituloIng {
+    text-decoration: underline;
+  }
+  #tituloPrep {
+    text-decoration: underline;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  #pizzaTitulo {
+    width: 20rem;
+    text-align: center;
+    border-bottom: 2px solid #000;
+  }
+  #seccionPrincipal {
+    justify-content: center;
+  }
+  #contenedorImagenPrincipal {
+    text-align: center;
+  }
+  #parrafoPizza {
+    text-align: center;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  #pizzaChicago {
+    border-top: none;
+  }
+  #pizzaTitulo {
+    text-align: left;
+    border-bottom: 2px solid #000;
+    padding: 0 0 2rem 0;
+    margin: 0 0 1rem 2rem;
+    width: 18rem;
+  }
+  #parrafoPizza {
+    text-align: left;
+    margin: 0 0 1rem 2rem;
+  }
+  #pizzaChicago {
+    width: 100%;
+    height: 100%;
+  }
+  #seccionPrincipal {
+    justify-content: center;
+  }
+  #contenedorImagenPrincipal {
+    text-align: right;
+    width: 25rem;
+
+  }
+  #tituloInfo {
+    display: flex;
+  }
+  #botonesPizza {
+    justify-content: start;
+    padding-left: 1rem;
+    margin: 0 0 1rem 1rem;
+  }
+  .divisor {
+    opacity: 0;
+  }
+}
+@media (min-width: 1201px) {
+  #tituloInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  #pizzaTitulo {
+    text-align: left;
+    border-bottom: 2px solid #000;
+    padding: 2rem 0 3rem 0;
+    margin: 0 0 1rem 1rem;
+    width: 100%;
+  }
+  #parrafoPizza {
+    text-align: left;
+    margin: 0 0 1rem 1rem;
+  }
+  #botonesPizza {
+    justify-content: start;
+    margin: 0 0 1rem 1rem;
+  }
+  #pizzaChicago {
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  #seccionPrincipal {
+    padding: 2rem;
+    justify-content: center;
+    margin: auto;
+  }
+  #contenedorImagenPrincipal {
+    text-align: justify;
+    padding: 0;
+  }
+  .margenes-main {
+    margin: 0 10rem 0 10rem;
+  }
+  #ing-prep {
+    padding: 0 5rem 0 5rem;
+  } 
+  #ricomida2 {
+    padding: 0;
+    margin: 0 0 0 6rem;
+  }
+}
