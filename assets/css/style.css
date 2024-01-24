@@ -1,11 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap");
-/* Colores
-#373a3c
-#dddddd
-#000 o var(--black)
-#fff o var(--white)
-#dc3545 o var(--danger) 
-*/
 
 * {
   border: 0;
@@ -69,7 +62,7 @@ p {
 
 #ricomida,
 #ricomida2,
-footer h3 {
+footer h3 a {
   font-family: "Lobster", sans-serif;
 }
 
@@ -119,6 +112,7 @@ footer h3 {
 
 .navbar {
   background-color: #373a3c;
+
 }
 
 .navbar a {
